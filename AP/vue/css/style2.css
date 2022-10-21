@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+
+a{
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+.header{
+  height: 100px;
+  background: rgb(0,102,203);
+  padding-right: 20px;
+  color: #fff;
+}
+.logo{
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.imglogo{
+  height: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.menu{
+  float: right;
+  line-height: 100px;
+}
+.menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #40b0fb;
+}
+
+center{
+  width: 75%;
+  margin: 40px auto;
+}
+
+.card_desc{
+  margin: 20px;
+}
+
+.card_spec{
+  margin: 20px;
+  font-size: 15px;
+}
+
+.artiste .row{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.artiste .row img{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+	
+.artiste .row .desc{
+  height: 250px;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.desc{
+  width: 250px;
+}
+
+.descript{
+  width: 750px;
+  margin-left: 15px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background:   rgba(0,102,203,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  position: sticky bottom;
+}
